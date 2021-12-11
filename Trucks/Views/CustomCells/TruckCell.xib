@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TruckCell" rowHeight="53" id="KGk-i7-Jjw" customClass="TruckCell" customModule="Trucks" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="53"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="53"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABC " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4hy-Ef-fZg">
+                        <rect key="frame" x="10" y="6" width="35.5" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="S72-YI-lqa"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="15"/>
+                        <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="days ago" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hIJ-Hg-OF2">
+                        <rect key="frame" x="257" y="5" width="53" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="idl-be-SH2"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18914" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eq4-U4-xDI">
+                        <rect key="frame" x="206" y="5" width="48" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="48" id="DRS-HE-w92"/>
+                            <constraint firstAttribute="height" constant="21" id="Qcw-f8-vyK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="13"/>
+                        <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="k/h" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Isp-i3-ggH">
+                        <rect key="frame" x="290" y="28" width="20" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="sZh-k5-krg"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Stopped since last 819 days " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mce-XO-KI9">
+                        <rect key="frame" x="10" y="29" width="221" height="23"/>
+                        <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="11"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100.57" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="za9-XL-FeL">
+                        <rect key="frame" x="239" y="28" width="48" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="48" id="DxA-vp-tij"/>
+                            <constraint firstAttribute="height" constant="21" id="Yvj-zb-87q"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="13"/>
+                        <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="74L-Ti-XEa">
+                        <rect key="frame" x="48" y="5" width="21" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="ioj-GI-mWr"/>
+                            <constraint firstAttribute="width" constant="21" id="v6n-vr-Crx"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="za9-XL-FeL" firstAttribute="top" secondItem="eq4-U4-xDI" secondAttribute="bottom" constant="2" id="1km-Lm-kCJ"/>
+                    <constraint firstItem="hIJ-Hg-OF2" firstAttribute="leading" secondItem="eq4-U4-xDI" secondAttribute="trailing" constant="3" id="9ka-IO-089"/>
+                    <constraint firstItem="Mce-XO-KI9" firstAttribute="top" secondItem="4hy-Ef-fZg" secondAttribute="bottom" constant="2" id="Aom-1e-xdP"/>
+                    <constraint firstItem="Isp-i3-ggH" firstAttribute="leading" secondItem="za9-XL-FeL" secondAttribute="trailing" constant="3" id="BaP-1B-104"/>
+                    <constraint firstItem="4hy-Ef-fZg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="CnK-mH-xCr"/>
+                    <constraint firstAttribute="bottom" secondItem="Isp-i3-ggH" secondAttribute="bottom" constant="5" id="Cq6-OC-58o"/>
+                    <constraint firstItem="Isp-i3-ggH" firstAttribute="leading" secondItem="za9-XL-FeL" secondAttribute="trailing" constant="3" id="DQA-tv-bMo"/>
+                    <constraint firstItem="hIJ-Hg-OF2" firstAttribute="leading" secondItem="eq4-U4-xDI" secondAttribute="trailing" constant="3" id="Dex-s0-8r0"/>
+                    <constraint firstItem="eq4-U4-xDI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="I8G-5w-0BC"/>
+                    <constraint firstItem="Isp-i3-ggH" firstAttribute="top" secondItem="hIJ-Hg-OF2" secondAttribute="bottom" constant="2" id="JoO-W5-Ne1"/>
+                    <constraint firstAttribute="trailing" secondItem="Isp-i3-ggH" secondAttribute="trailing" constant="10" id="O0N-Ov-MVN"/>
+                    <constraint firstItem="74L-Ti-XEa" firstAttribute="leading" secondItem="4hy-Ef-fZg" secondAttribute="trailing" constant="2.5" id="QY1-Nz-DCX"/>
+                    <constraint firstItem="Mce-XO-KI9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="SwI-oV-FJL"/>
+                    <constraint firstItem="za9-XL-FeL" firstAttribute="top" secondItem="hIJ-Hg-OF2" secondAttribute="bottom" constant="2" id="VHu-To-eoo"/>
+                    <constraint firstItem="Mce-XO-KI9" firstAttribute="top" secondItem="4hy-Ef-fZg" secondAttribute="bottom" constant="2" id="YBi-f0-eoQ"/>
+                    <constraint firstItem="Isp-i3-ggH" firstAttribute="top" secondItem="hIJ-Hg-OF2" secondAttribute="bottom" constant="2" id="YXu-30-vlp"/>
+                    <constraint firstAttribute="trailing" secondItem="hIJ-Hg-OF2" secondAttribute="trailing" constant="10" id="bnn-a1-Lva"/>
+                    <constraint firstItem="za9-XL-FeL" firstAttribute="leading" secondItem="Mce-XO-KI9" secondAttribute="trailing" constant="8" symbolic="YES" id="elw-dT-Dzn"/>
+                    <constraint firstAttribute="bottom" secondItem="za9-XL-FeL" secondAttribute="bottom" constant="5" id="kfu-Sk-Uiu"/>
+                    <constraint firstItem="hIJ-Hg-OF2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="nK2-tM-Ih3"/>
+                    <constraint firstItem="74L-Ti-XEa" firstAttribute="leading" secondItem="4hy-Ef-fZg" secondAttribute="trailing" constant="2.5" id="q3h-BG-hsl"/>
+                    <constraint firstItem="74L-Ti-XEa" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="rgY-GM-7gl"/>
+                    <constraint firstItem="4hy-Ef-fZg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="sWV-Mt-3hN"/>
+                    <constraint firstAttribute="bottom" secondItem="Mce-XO-KI9" secondAttribute="bottom" constant="2" id="yb4-7V-tZR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="speedLabel" destination="za9-XL-FeL" id="nCo-1q-NZ4"/>
+                <outlet property="speedUnitLabel" destination="Isp-i3-ggH" id="X8v-XS-sYM"/>
+                <outlet property="timeLabel" destination="eq4-U4-xDI" id="WAk-dr-99L"/>
+                <outlet property="timeUnitLabel" destination="hIJ-Hg-OF2" id="cs8-B1-bJP"/>
+                <outlet property="truckImageView" destination="74L-Ti-XEa" id="YsF-Za-ml2"/>
+                <outlet property="truckLastTime" destination="Mce-XO-KI9" id="dfx-JS-MSX"/>
+                <outlet property="truckNumberLabel" destination="4hy-Ef-fZg" id="i8I-Rl-6ug"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="85.379464285714278"/>
+        </tableViewCell>
+    </objects>
+</document>
